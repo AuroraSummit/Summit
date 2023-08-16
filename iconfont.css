@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "iconfont";
+  src: url("iconfont.woff2?t=1690253191557") format("woff2"),
+    url("iconfont.woff?t=1690253191557") format("woff"),
+    url("iconfont.ttf?t=1690253191557") format("truetype");
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 45px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  align-items: center;
+  vertical-align: 25%;
+  padding: 5px;
+}
+
+.icon-QQ:before {
+  content: "\e882";
+}
+
+.icon-github-fill:before {
+  content: "\e885";
+}
+
+.icon-weixin:before {
+  content: "\e637";
+}

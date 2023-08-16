@@ -1,0 +1,210 @@
+body {
+  background-color: aliceblue;
+  font-family: "楷体";
+  font-size: 20px;
+  padding: 50px;
+  background-image: url(https://s1.ax1x.com/2022/11/01/x7lJGd.png);
+  background-repeat: no-repeat;
+  background-position: 100% center center;
+  background-attachment: fixed;
+}
+* {
+  text-decoration: none;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.top-right {
+  margin-left: 8px;
+}
+.baiSe {
+  background-color: rgba(0, 0, 0, 0.233);
+}
+/* 上下左右外边距 */
+.mgl5 {
+  margin-left: 450px;
+}
+
+/* 六个小盒子 */
+.shuJu {
+  height: 170px;
+  width: 250px;
+  border-radius: 20px;
+}
+.mgl4 {
+  margin-left: 350px;
+}
+.shuJu2 {
+  margin-left: 50px;
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+}
+.mgt {
+  margin-top: 50px;
+}
+.shuJu1 {
+  height: 300px;
+  width: 250px;
+  border-radius: 20px;
+}
+.bottom-left {
+  margin-left: 400px;
+}
+.bianju {
+  margin: 50px;
+}
+.mgl2 {
+  margin-left: 45px;
+}
+.mgl3 {
+  margin-left: 300px;
+}
+.shuJu3 {
+  height: 500px;
+  width: 500px;
+  border-radius: 20px;
+}
+.shuJu4 {
+  height: 220px;
+  width: 250px;
+  border-radius: 20px;
+}
+.lianjie1 {
+  color: aqua;
+}
+.image1 {
+  background-image: url(https://s1.ax1x.com/2023/07/16/pCIhA1g.png);
+  color: #fff;
+}
+.image1::hover {
+  color: aqua;
+}
+.image1::before {
+  color: aqua;
+}
+.menu:hover .dropdown-menu {
+  display: block;
+}
+.menu-btn:hover {
+  background-color: #3e8e41;
+}
+
+.dropdown-menu .a1:hover {
+  background-color: #f1f1f1;
+  color: blue;
+  border-color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.233);
+  overflow: hidden;
+  /*        注意: overflow:hidden 添加到 ul 元素,以防止 li 元素列表的外出(当li{float:left}时)。         来源链接：https://www.runoob.com/try/try.php?filename=trycss_navbar_horizontal_float&basepath=0        */
+}
+
+li {
+  float: left;
+  margin-left: 150px;
+}
+
+li .a1 {
+  color: white;
+
+  display: inline-block;
+  text-decoration: none;
+}
+
+li > .a1:hover:not(.a1.active),
+.dropbtn:hover {
+  background-image: linear-gradient(230deg, #5096ff, #8d9eff, #b6a8ff, #f0c1ff);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* 默认相对于<html>进行绝对定位 */
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content .a1 {
+  color: black;
+  display: block;
+  /* 因为<a>标签不是块元素，min-width:100px不会生效 */
+}
+
+.dropdown-content .a1:hover {
+  background-color: #f1f1f1;
+  color: deepskyblue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.image2 {
+  background-image: url(https://s1.ax1x.com/2023/07/17/pCoWvAx.png);
+  background-repeat: no-repeat;
+}
+.image3 {
+  background-image: url(https://s1.ax1x.com/2023/07/17/pCofp9O.png);
+  background-repeat: no-repeat;
+}
+.image4 {
+  background-image: url(https://s1.ax1x.com/2023/07/17/pCofCge.png);
+}
+.image5 {
+  background-image: url(https://s1.ax1x.com/2023/07/17/pCofkDA.png);
+}
+.image6 {
+  background-image: url(https://s1.ax1x.com/2023/07/17/pCofu8S.png);
+}
+.top-right {
+  margin-left: 500px;
+}
+.image {
+  background-image: url(https://s1.ax1x.com/2022/10/16/xBZNE6.jpg);
+}
